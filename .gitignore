@@ -1,0 +1,5 @@
+# ignore source files
+images/
+sass/
+scripts/
+styles/
