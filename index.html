@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,7 +21,7 @@
                 <div class="hello__content">
                     <div class="tipa-nav">
                         <div class="icon date">
-                            <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=Your+Event+Name&dates=20140127T224000Z/20140320T221500Z&details=For+details,+link+here:+http://www.example.com&location=Waldorf+Astoria,+301+Park+Ave+,+New+York,+NY+10022&sf=true&output=xml">2 августа, 20:00</a>
+                            <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=Вебинар+«Почему+стоит+получать+высшее+образование+в+Ирландии+и+как+гарантированно+поступить+в+ирландский+вуз+без+экзаменов»&dates=20180802T170000Z/20180802T190000Z&details=Подробнее:+https://www.study.ua&sf=true&output=xml" target="_blank">2 августа, 20:00</a>
                         </div>
                         <div class="icon telephone">
                             <a href="tel:380442280191">044 228 01 91</a>
@@ -37,7 +37,9 @@
                             <span>в ирландский вуз без экзаменов»</span>
                         </h1>
                         <span>Зарегистрируйтесь, чтобы узнать больше:</span>
-                        <div class="form"></div>
+                        <div id="regi" class="form">
+                            <div id="form_96149_1"></div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -162,14 +164,152 @@
                             </div>
                         </div>
                     </div>
-                    <div class="video" style="width:768px;height:432px;margin:0 auto;background-color:#fafafa"></div>
+                    <div class="wrapper-micro video">
+                        <img src="dist/img/video.jpg" alt="video">
+                    </div>
                 </div>
                 <div class="leafe-video-fore"></div>
                 <div class="leafe-video-back"></div>
             </section>
-
-            <div style="height:2000px"></div>
+            <section class="spiker">
+                <center>
+                    <h2 class="caption">
+                        Спикер
+                    </h2>
+                </center>
+                <div class="wrapper-micro spiker__bio">
+                    <div class="spiker__bio--foto">
+                        <img src="dist/img/spiker.jpg" alt="Маргарита Слюжинская">
+                    </div>
+                    <div class="spiker__bio--discr">
+                        <h3>Маргарита Слюжинская</h3>
+                        <p>Представитель компании STUDY.UA в Ирландии</p>
+                        <p>Маргарита в течение 8 лет работала экспертом по образовательным программам в компании STUDY.UA, сейчас живёт в Дублине и лично помогает всем нашим клиентам в успешном поступлении в ирландские ВУЗы!</p>
+                    </div>
+                </div>
+                <div class="leafe-spiker-fore"></div>
+                <div class="leafe-spiker-back"></div>
+            </section>
+            <section class="wrapper-small">
+                <center>
+                    <h2 class="caption">
+                        Ирландский центр STUDY.UA
+                    </h2>
+                </center>
+                <div class="ircenter">
+                    <div class="ircenter__unit">
+                        <div class="ircenter__unit--pic">
+                            <img src="dist/img/cent1.jpg" alt="Эксклюзивные договора с ведущими ВУЗами Ирландии">
+                        </div>
+                        <div class="ircenter__unit--text">
+                            <p>
+                                Эксклюзивные договора с ведущими ВУЗами Ирландии
+                            </p>
+                        </div>
+                    </div>
+                    <div class="ircenter__unit">
+                        <div class="ircenter__unit--pic">
+                            <img src="dist/img/cent2.jpg" alt="Поддержка представителя STUDY.UA в Ирландии">
+                        </div>
+                        <div class="ircenter__unit--text">
+                            <p>
+                                Поддержка <br>представителя STUDY.UA в Ирландии
+                            </p>
+                        </div>
+                    </div>
+                    <div class="ircenter__unit">
+                        <div class="ircenter__unit--pic">
+                            <img src="dist/img/cent3.jpg" alt="Единственный ирландский образовательный центр в Украине">
+                        </div>
+                        <div class="ircenter__unit--text">
+                            <p>
+                                Единственный ирландский образовательный центр в Украине
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
+        <footer class="lendos-footer">
+            <section class="wrapper-small">
+                <center>
+                    <h2>STUDY.UA – лидер в сфере образования за рубежом среди украинских компаний</h2>
+                </center>
+                <div class="numbers">
+                    <div class="numbers__unit">
+                        <div class="numbers__unit--icon">
+                            <img src="dist/img/num1.svg" alt="10000 образовательных программ">
+                        </div>
+                        <div class="numbers__unit--text">
+                            <span>
+                                > 10000
+                            </span>
+                            <p>
+                                образовательных программ
+                            </p>
+                        </div>
+                    </div>
+                    <div class="numbers__unit">
+                        <div class="numbers__unit--icon">
+                            <img src="dist/img/num2.svg" alt="200 сотрудников">
+                        </div>
+                        <div class="numbers__unit--text">
+                            <span>
+                                > 200
+                            </span>
+                            <p>
+                                сотрудников
+                            </p>
+                        </div>
+                    </div>
+                    <div class="numbers__unit">
+                        <div class="numbers__unit--icon">
+                            <img src="dist/img/num3.svg" alt="2000 студентов, отправляющихся за рубеж ежегодно">
+                        </div>
+                        <div class="numbers__unit--text">
+                            <span>
+                                2000
+                            </span>
+                            <p>
+                                студентов, отправляющихся за рубеж ежегодно
+                            </p>
+                        </div>
+                    </div>
+                    <div class="numbers__unit">
+                        <div class="numbers__unit--icon">
+                            <img src="dist/img/num4.svg" alt="">
+                        </div>
+                        <div class="numbers__unit--text">
+                            <span>
+                                99% 
+                            </span>
+                            <p>
+                                открываемость виз
+                            </p>
+                        </div>
+                    </div>
+                    <div class="numbers__unit">
+                        <div class="numbers__unit--icon">
+                            <img src="dist/img/num5.svg" alt="11 партнерских вузов в Ирландии">
+                        </div>
+                        <div class="numbers__unit--text">
+                            <span>
+                                11
+                            </span>
+                            <p>
+                                партнерских вузов в Ирландии
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="form">
+                    <div id="form_96247_1"></div>
+                </div>
+                <center>
+                    <p>2018 © STUDY.UA - Все права защищены.</p>
+                </center>
+            </section>
+        </footer>
 
         <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -183,6 +323,40 @@
 
         <!-- Livereload -->
         <script src="http://localhost:35729/livereload.js"></script>
+
+        <!--  Formdesigner code  -->
+        <script>
+            function parseGetParams(){var c,g,d,a,h,e,b={},f=function(a){return decodeURIComponent(a).replace(/\+/g," ")},k=window.location.search.substring(1),l=/([^&;=]+)=?([^&;]*)/g;for(h=function(a){"object"!=typeof a&&(g=a,a={length:0},g&&Array.prototype.push.call(a,g));return a};d=l.exec(k);)c=d[1].indexOf("["),e=f(d[2]),0>c?(a=f(d[1]),b[a]?(b[a]=h(b[a]),Array.prototype.push.call(b[a],e)):b[a]=e):(a=f(d[1].slice(0,c)),c=f(d[1].slice(c+1,d[1].indexOf("]",c))),b[a]=h(b[a]),c?b[a][c]=e:Array.prototype.push.call(b[a], e));return b};
+
+                                   var getParams = parseGetParams();
+           (function (d, w, c) {
+               (w[c] = w[c] || []).push({formId:96149,host:"formdesigner.ru",formHeight:391, el: "form_96149_1", center: 0,
+               fields: {
+                                                   field767277: getParams.gclid || ''
+                                               }});
+               var s = d.createElement("script"), g = "getElementsByTagName";
+               s.type = "text/javascript"; s.charset="UTF-8"; s.async = false;
+               s.src = (d.location.protocol == "https:" ? "https:" : "http:")+"//formdesigner.ru/js/iform.js";
+               var h=d[g]("head")[0] || d[g]("body")[0];
+               h.appendChild(s);
+           })(document, window, "fdforms");
+        </script>
+        <script>
+            function parseGetParams(){var c,g,d,a,h,e,b={},f=function(a){return decodeURIComponent(a).replace(/\+/g," ")},k=window.location.search.substring(1),l=/([^&;=]+)=?([^&;]*)/g;for(h=function(a){"object"!=typeof a&&(g=a,a={length:0},g&&Array.prototype.push.call(a,g));return a};d=l.exec(k);)c=d[1].indexOf("["),e=f(d[2]),0>c?(a=f(d[1]),b[a]?(b[a]=h(b[a]),Array.prototype.push.call(b[a],e)):b[a]=e):(a=f(d[1].slice(0,c)),c=f(d[1].slice(c+1,d[1].indexOf("]",c))),b[a]=h(b[a]),c?b[a][c]=e:Array.prototype.push.call(b[a], e));return b};
+
+                                   var getParams = parseGetParams();
+           (function (d, w, c) {
+               (w[c] = w[c] || []).push({formId:96247,host:"formdesigner.ru",formHeight:391, el: "form_96247_1", center: 0,
+               fields: {
+                                                   field768341: getParams.gclid || ''
+                                               }});
+               var s = d.createElement("script"), g = "getElementsByTagName";
+               s.type = "text/javascript"; s.charset="UTF-8"; s.async = false;
+               s.src = (d.location.protocol == "https:" ? "https:" : "http:")+"//formdesigner.ru/js/iform.js";
+               var h=d[g]("head")[0] || d[g]("body")[0];
+               h.appendChild(s);
+           })(document, window, "fdforms");
+           </script>
     </body>
 </html>
 
